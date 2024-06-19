@@ -7,7 +7,7 @@ restaurant_menu = {
     "Desserts": {"Cake": 4.99, "Ice Cream": 3.99}
 }
 
-def add_category(menu):
+def add_category(restaurant_menu):
     restaurant_menu["Beverages"] = {"Expresso Freddo":7.99,"Mango Lassi":5.99}
     print("Printing the dict after addition of beverages")
     print(restaurant_menu)
@@ -17,7 +17,7 @@ def add_category(menu):
     print(restaurant_menu)
     pass
 
-def price_update(menu):
+def price_update(restaurant_menu):
     print("Updating price of Steak to 17.99")
     restaurant_menu["Main Course"]["Steak"] = 17.99
     print (restaurant_menu) 
