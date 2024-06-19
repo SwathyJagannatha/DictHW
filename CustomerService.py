@@ -6,7 +6,7 @@ service_tickets = {
     "Ticket002": {"Customer": "Bob", "Issue": "Payment issue", "Status": "closed"}
 }
 
-def open_ticket(ticket):
+def open_ticket(service_tickets):
     count = len(service_tickets.keys())
     print("No of keys",count)
     user_name = input("Enter your name")
